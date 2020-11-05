@@ -8,7 +8,6 @@ randDNAStr = ''.join([random.choice(Nucleotides)
 
 
 DNAStr = validateSeq(randDNAStr)
-
 print(f'\nSequence: {DNAStr}\n')
 print(f'[1] + Sequence Length: {len(DNAStr)}\n')
 print(f'[2] + Nucleotide Frequency: {countNucFreq(DNAStr)}\n')
